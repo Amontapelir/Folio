@@ -1,0 +1,22 @@
+/* Шрифтовая пара «Cormorant Garamond + Manrope». Файлы собирает scripts/build_fonts.py:
+   один woff2 на шрифт, кириллица и латиница вместе; лицензия SIL OFL 1.1 — рядом. */
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./files/cormorant-garamond-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./files/manrope-400.woff2") format("woff2");
+}
+
+.fonts-cormorant-manrope {
+  --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-text: Manrope, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}

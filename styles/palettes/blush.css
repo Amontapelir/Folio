@@ -1,0 +1,11 @@
+/* Палитра «Пудра». Контраст пар текст/фон проверяет pytest: apps/templates_catalog/tests. */
+.palette-blush {
+  --c-bg: #f8f0ee;
+  --c-surface: #fffaf8;
+  --c-text: #3a2a2c;
+  --c-muted: #6b5558;
+  --c-accent: #9c4f5e;
+  --c-on-accent: #ffffff;
+  --c-line: #e6d5d2;
+  --c-placeholder: #eddedb;
+}

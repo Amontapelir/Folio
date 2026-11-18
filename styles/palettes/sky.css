@@ -1,0 +1,11 @@
+/* Палитра «Небо». Контраст пар текст/фон проверяет pytest: apps/templates_catalog/tests. */
+.palette-sky {
+  --c-bg: #eff4f8;
+  --c-surface: #fafcfe;
+  --c-text: #1f2f3d;
+  --c-muted: #52626f;
+  --c-accent: #3b6a8f;
+  --c-on-accent: #ffffff;
+  --c-line: #d3dee8;
+  --c-placeholder: #dfe8ef;
+}

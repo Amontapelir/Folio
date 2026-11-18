@@ -1,0 +1,12 @@
+/* Палитра «Ночной камень» — тёмная: светлый текст на угле, латунный акцент. Частицы для тёмного
+   фона выбираются сами (frontend/effects/src/sprites.ts). Контраст проверяет pytest. */
+.palette-noir {
+  --c-bg: #15130f;
+  --c-surface: #211d18;
+  --c-text: #f0e9dc;
+  --c-muted: #b5ab98;
+  --c-accent: #d8b47a;
+  --c-on-accent: #15130f;
+  --c-line: #3a342c;
+  --c-placeholder: #2a251e;
+}

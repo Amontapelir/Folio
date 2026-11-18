@@ -1,0 +1,11 @@
+/* Палитра «Бархат» — тёмная, с бордовым оттенком и розовым акцентом. Контраст проверяет pytest. */
+.palette-velvet {
+  --c-bg: #1c1020;
+  --c-surface: #2a1b2e;
+  --c-text: #f4e9ef;
+  --c-muted: #c2aec0;
+  --c-accent: #e08aa8;
+  --c-on-accent: #1c1020;
+  --c-line: #41304a;
+  --c-placeholder: #33243a;
+}

@@ -1,0 +1,38 @@
+/* Токены гостевой страницы. Цвета задаёт палитра (palettes/*.css), шрифты — пара
+   (fonts/*.css); здесь значения по умолчанию, ритм и шкала размеров. */
+:root {
+  --c-bg: #f7f4ee;
+  --c-surface: #fffdf9;
+  --c-text: #2b2b28;
+  --c-muted: #5f5e58;
+  --c-accent: #5b6b4f;
+  --c-on-accent: #ffffff;
+  --c-line: #dcd8cd;
+  --c-placeholder: #ebe7de;
+
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-text: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --scale: 1;
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4rem;
+  --measure: 34rem;
+  --radius: 0.75rem;
+  --tap: 2.75rem; /* 44 px: минимальная зона нажатия (P12) */
+}
+
+/* Размер текста S / M / L (P4): меняется классом на <html>. */
+.text-S {
+  --scale: 0.93;
+}
+
+.text-M {
+  --scale: 1;
+}
+
+.text-L {
+  --scale: 1.1;
+}

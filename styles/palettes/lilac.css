@@ -1,0 +1,11 @@
+/* Палитра «Сирень». Контраст пар текст/фон проверяет pytest: apps/templates_catalog/tests. */
+.palette-lilac {
+  --c-bg: #f4f0f8;
+  --c-surface: #fbf9fd;
+  --c-text: #2d2638;
+  --c-muted: #5b5268;
+  --c-accent: #6b4f95;
+  --c-on-accent: #ffffff;
+  --c-line: #ddd5e8;
+  --c-placeholder: #e6e0ee;
+}

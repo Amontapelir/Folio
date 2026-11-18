@@ -1,0 +1,11 @@
+/* Палитра «Песок». Контраст пар текст/фон проверяет pytest: apps/templates_catalog/tests. */
+.palette-sand {
+  --c-bg: #f6f0e6;
+  --c-surface: #fdfaf4;
+  --c-text: #3a3023;
+  --c-muted: #675a49;
+  --c-accent: #8a5a2b;
+  --c-on-accent: #ffffff;
+  --c-line: #e2d6c2;
+  --c-placeholder: #ebe2d1;
+}

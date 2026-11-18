@@ -1,0 +1,1 @@
+var e=`folio-bridge`;function t(e){return typeof e==`object`&&!!e&&e.source===`folio-bridge`&&typeof e.type==`string`}function n(e){return Array.from(e).length}function r(e,t){return Array.from(e).slice(0,t).join(``)}export{t as i,r as n,e as r,n as t};

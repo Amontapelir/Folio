@@ -1,0 +1,12 @@
+/* Палитра «Шалфей». Переключается классом на <html> и подменой этого файла (5.1).
+   Контраст пар текст/фон проверяет pytest: apps/templates_catalog/tests. */
+.palette-sage {
+  --c-bg: #f4f1ea;
+  --c-surface: #fbfaf6;
+  --c-text: #2e3a2c;
+  --c-muted: #5f6a59;
+  --c-accent: #55684a;
+  --c-on-accent: #ffffff;
+  --c-line: #d8dccd;
+  --c-placeholder: #e4e6db;
+}
